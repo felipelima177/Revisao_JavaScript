@@ -1,4 +1,4 @@
-const currentPlayer = document.querySelector(".currentPlayer");
+const currentPlayer = document.querySelector(".Jogador");
 
 let selected;
 let player = "X";
