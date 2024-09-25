@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 02 - Filtro de Array com apenas números pares</title>
+    <style>
+      body {
+        text-align: center;
+        font-size: 30px;
+        background-color: #6a0c69;
+        color: #0a679a;
+      }
+      button {
+        padding: 20px;
+        font-size: 35px;
+        background-color: #0a679a;
+        color: #ffffff;
+        border-radius: 5px;
+      }
+      input {
+        padding: 20px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Filtro de números Pares</h1>
+
+    <input type="number" id="num" placeholder="Informe um número" />
+    <br /><br />
+    <button onclick="addNum()">Adicionar</button>
+    <br /><br />
+    <button onclick="filtrarPar()">Filtrar Pares</button>
+
+    <h2>Array: <span id="array">[]</span></h2>
+    <h2>Números Pares: <span id="exibirPar">[]</span></h2>
+
+    <script src="atividade02.js"></script>
+  </body>
+</html>

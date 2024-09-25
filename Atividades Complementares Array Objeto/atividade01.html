@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 01 - Soma dos Elementos de um Array</title>
+    <style>
+      body {
+        text-align: center;
+        font-size: 30px;
+        background-color: #106051;
+        color: bisque;
+      }
+      button {
+        padding: 20px;
+        font-size: 35px;
+        background-color: #072922;
+        color: #ffff;
+      }
+      input {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Soma de Elementos do Array</h1>
+
+    <input type="number" id="num" placeholder="Digite um número" />
+    <br /><br />
+    <button onclick="addNum()">Adicionar</button>
+    <br /><br />
+    <button onclick="removerNum()">Remover Último</button>
+
+    <h2>Array: <span id="array">[]</span></h2>
+    <h2>Soma: <span id="somaArray">0</span></h2>
+
+    <script src="atividade01.js"></script>
+  </body>
+</html>
